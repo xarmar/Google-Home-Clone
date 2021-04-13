@@ -1,0 +1,145 @@
+body {
+    font-size: 13px;
+    font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+    background-color: white;
+    color: black;
+    margin: 4px 0px 4px 0px;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu {
+    flex-direction: row;
+    align-self: flex-end;
+
+}
+
+#menu li
+{
+    padding: 0 10px;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    display: inline-flex;
+    line-height: 10px;
+    vertical-align: middle;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+#menu svg {
+    height: 20px;
+    width: 20px;
+}
+
+#user-initial {
+    border-radius: 50%;
+}
+
+#google {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+#inputbar {
+    width: 100%;
+    align-self: center;
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    max-width: 580px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    padding: 10px 13px 10px 0px;
+}
+
+#inputbar input {
+    border: none;
+    outline: none;
+    -webkit-writing-mode: horizontal-tb !important;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    font: 400 13.3333px Arial;
+    width: 90%;
+    margin-left: 10px; 
+}
+
+#magnify {
+    color: #9aa0a6;
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+    padding-left: 15px;
+}
+
+#voice {
+    width: 25px;
+    height: 25px;
+}
+
+#button-div {
+    height: 70px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+#button-div button{
+    padding: 0 16px;
+    margin: 11px 4px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    color: #202124;
+}
+
+#alternative {
+    align-self: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+#portugal {
+    -moz-box-flex: inherit;
+}
+
+.grey-width {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+#nav li {
+    list-style: none;
+}
+
+.nav-left {
+
+}
+
+.nav-right {
+
+}
